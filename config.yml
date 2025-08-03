@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "indhold"
+    label: "Indhold"
+    files:
+      - file: "content/om.md"
+        label: "Om mig"
+        name: "om"
+        fields:
+          - { label: "Indhold", name: "body", widget: "markdown" }
+      - file: "content/energi.md"
+        label: "Alt er energi"
+        name: "energi"
+        fields:
+          - { label: "Indhold", name: "body", widget: "markdown" }
+      - file: "content/ydelser.md"
+        label: "Ydelser"
+        name: "ydelser"
+        fields:
+          - { label: "Indhold", name: "body", widget: "markdown" }
+      - file: "content/sprays.md"
+        label: "Energi Sprays"
+        name: "sprays"
+        fields:
+          - { label: "Indhold", name: "body", widget: "markdown" }
+      - file: "content/kontakt.md"
+        label: "Kontakt"
+        name: "kontakt"
+        fields:
+          - { label: "Indhold", name: "body", widget: "markdown" }
