@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt – HEALERKATRINE</title>
+  <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: url('https://images.unsplash.com/photo-1580584916118-df1dfa213ed5?q=80&w=1600&auto=format&fit=crop') no-repeat center center fixed;
+      background-size: cover;
+      color: #111;
+    }
+    header, .subnav, footer {
+      text-align: center;
+      color: white;
+      margin-top: 2rem;
+    }
+    .subnav a {
+      margin: 0 1rem;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .content-box {
+      background: rgba(255,255,255,0.95);
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html" style="color:white;text-decoration:none;">HEALERKATRINE</a></h1>
+    <div class="subnav">
+      <a href="om.html">Om mig</a>
+      <a href="energi.html">Alt er energi</a>
+      <a href="ydelser.html">Ydelser</a>
+      <a href="sprays.html">Køb Energi Sprays</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="content-box">
+      <h2>Kontakt</h2>
+      <p>Du er altid velkommen til at række ud, hvis du har spørgsmål, er nysgerrig på et forløb, eller blot ønsker at mærke efter, om energien matcher. Jeg svarer, så snart jeg kan – og glæder mig til at høre fra dig 💌</p>
+      
+      <form action="mailto:kontakt@healerkatrine.dk" method="POST" enctype="text/plain">
+        <label for="name">Navn</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Besked</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send besked</button>
+      </form>
+
+      <hr>
+
+      <h3 id="mailing">Tilmeld dig mailinglisten</h3>
+      <p>Få besked, når nye forløb, produkter eller healingsindlæg er klar:</p>
+      <p><a href="https://forms.gle/YOUR-MAILINGLIST-FORM" target="_blank" rel="noopener">Klik her for at tilmelde dig</a></p>
+    </section>
+  </main>
+
+  <footer>
+    HEALERKATRINE • kontakt@healerkatrine.dk • CVR: [indsæt]
+  </footer>
+</body>
+</html>
